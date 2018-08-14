@@ -14,7 +14,7 @@
 "----------------------------------------------------------------------
 
 " 设置缩进宽度
-set sw=4
+set sw=2
 
 " 设置 TAB 宽度
 set ts=4
@@ -23,8 +23,9 @@ set ts=4
 set noet
 
 " 如果后面设置了 expandtab 那么展开 tab 为多少字符
-set softtabstop=4
+set softtabstop=2
 
+set expandtab
 
 augroup PythonTab
 	au!
